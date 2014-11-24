@@ -10,3 +10,9 @@ git push -u origin master
 Zeby pozniej zrobic commita poprawionego pliku Majk.txt
 git commit -am "second commit"
 git push -u origin master
+
+
+----GUKUA-----
+ja to zrobilem inaczej
+
+i chuj...
