@@ -6,3 +6,7 @@ git Majk.txt
 git commit -m "first commit"
 git remote add origin https://github.com/MrZacky/PeachSoft1Project.git
 git push -u origin master
+
+Zeby pozniej zrobic commita poprawionego pliku touch
+git commit -m "second commit"
+git push -u origin master
