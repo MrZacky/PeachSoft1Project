@@ -2,7 +2,7 @@ To jest przykładowy tekst.
 Robię to tak:
 touch Majk.txt
 git init
-git Majk.txt
+git add Majk.txt
 git commit -m "first commit"
 git remote add origin https://github.com/MrZacky/PeachSoft1Project.git
 git push -u origin master
