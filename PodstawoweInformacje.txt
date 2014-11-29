@@ -1,0 +1,14 @@
+PeachSoft1Project
+================= GIT =================
+https://github.com/MrZacky/PeachSoft1Project
+
+================= UML's =================
+https://drive.google.com/?tab=mo&authuser=0#folders/0B_h5HzwioaI5ejN0TWhoaWlMYzA
+
+================= API jsoup =================
+http://jsoup.org/
+http://jsoup.org/apidocs/
+http://try.jsoup.org/
+
+================= Strony które będziemy parsować =================
+http://www.soccer-rating.com/
