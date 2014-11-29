@@ -2,7 +2,7 @@ PeachSoft1Project
 ================= GIT =================
 https://github.com/MrZacky/PeachSoft1Project
 
-================= UML's =================
+================= UML's && other's docs =================
 https://drive.google.com/?tab=mo&authuser=0#folders/0B_h5HzwioaI5ejN0TWhoaWlMYzA
 
 ================= API jsoup =================
