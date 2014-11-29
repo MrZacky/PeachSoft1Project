@@ -23,6 +23,17 @@ public class Main {
 	            t = new SoccerRating(temp);
 	            t.printMatches(10);
 	        }
-	    }
-
+	      url= "http://www.soccer-rating.com/Spain/";
+	 	 System.out.println("Fetching %s..." +  url);
+	       doc = Jsoup.connect(url).get();
+	       links = doc.select("a[href]");	
+	       System.out.println("Links:" + links.size());
+	  
+	       for (i = 13; i < 33; i++) {
+	     	    temp = links.get(i).attr("abs:href");
+	             System.out.println("	" + (i-12) + ". " + temp);
+	             t = new SoccerRating(temp);
+	             t.printMatches(10);
+	         }
+	}
 }
