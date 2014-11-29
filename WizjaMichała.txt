@@ -1,0 +1,38 @@
+Cześć.
+Uważam, ze musimy zbierac dane do bazy ja to widze tak
+DRUZYNY
+ID_druzyny:Int |  Nazwa::String | SoccerRating::String | Strona2::String | Strona3::String | Ranking::double 
+1  | Manchester United | http://www.soccer-rating.com/Manchester-United/213/ | link do str2 | link do str3 | 3789.92
+2  | Chelsea Londyn | http://www.soccer-rating.com/Chelsea-FC/207/ | link do str2 | link do str3 | 3721.43
+
+CHciałbym żeby tak było dla ułatwienia pracy w JAvie. Np mam mecz Manchester United - Śląsk Wrocław to mogę bez problemu 
+wyciągnąc taki link z bazy a nie musze go ponownie szukać. 
+Dodatkowo pozniej taka tabele mozna rozszerzyc o takie rzeczy jak Stadion, ranking
+ranking - bedzie potrzebny do naszych obliczen
+
+LIGA ANGIELSKA - MECZE
+ID_meczu::Int |  Data::date | ID_druzyna1::Int | ID_druzyna2::Int | wynik::double
+1 | 21-08-1993 | 1 | 2 | 2:1  (inaczej: Manchester United - Chelsea Londyn 2:1)
+2 | 23-08-1993 | 2 | 1 | 0:1  (inaczej: Chelsea Londyn - Manchester United 0:1) w sumie United wygrało 3-1 ;P
+
+
+SOCCERRATING - MECZE
+ID_meczu::Int | zwyciestwo_1::double | remis::double | zwyciestwo_2::double
+1 | 1.52 | 2.53 | 3.25
+2 | 2.21 | 2.46 | 2.05
+
+PRZYSZŁE_MECZE
+ID_DRUŻYNA_1::Int | ID_DRUŻYNA_2::Int | STADION::String
+1 | 2 | Old Trafford
+
+LIGI
+Nazwa Ligi | Liczba drużyn | 
+Liga angielska | 20
+Liga hiszpańska | 20
+
+Musimy przyjąć jakieś zasady, np:
+  > nazewnictwo angielskie (drużyna = team :P)
+  > jaki bierzemy nasz początkowy zakres. Ja proponuję liga angielska, liga hiszpańska, liga niemiecka. 
+        Ewentualnie jak starczy czasu to można dodać pozostałe ligi europejskie oraz rosyjską, brazylisjką, 
+        argentyńską i amerykańską, ponieważ one są najczęściej grane.
+  > jeszcze coś miałęm pisac i zapomniałem     
