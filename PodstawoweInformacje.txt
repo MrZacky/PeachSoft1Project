@@ -6,9 +6,26 @@ https://github.com/MrZacky/PeachSoft1Project
 https://drive.google.com/?tab=mo&authuser=0#folders/0B_h5HzwioaI5ejN0TWhoaWlMYzA
 
 ================= API jsoup =================
-http://jsoup.org/
-http://jsoup.org/apidocs/
-http://try.jsoup.org/
+JSOUP :: http://jsoup.org/
+  >docs :: http://jsoup.org/apidocs/
+  >try  :: http://try.jsoup.org/
 
 ================= Strony które będziemy parsować =================
-http://www.soccer-rating.com/
+Strony z typami:
+  SOCCER RATING :: http://www.soccer-rating.com/
+
+Strona z przyszłymi meczami:
+
+Strona z wynikami:
+
+================= DataBase =================
+firstpeach :: gold
+Connection Settings
+Host	ec2-54-243-245-159.compute-1.amazonaws.com
+Database	d5n3878jt37fuc
+User	kkgdofxqbtkbhl
+Port	5432
+Password 0hyBdmHtsNHgYIK9ZFDgIIkhgN
+Psql	 heroku pg:psql --app firstpeach HEROKU_POSTGRESQL_GOLD
+URL postgres://kkgdofxqbtkbhl:0hyBdmHtsNHgYIK9ZFDgIIkhgN@ec2-54-243-245-159.compute-1.amazonaws.com:5432/d5n3878jt37fuc
+============================================
