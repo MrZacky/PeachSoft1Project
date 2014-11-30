@@ -39,7 +39,7 @@ Musimy przyjąć jakieś zasady, np:
         Ewentualnie jak starczy czasu to można dodać pozostałe ligi europejskie oraz rosyjską, brazylisjką, 
         argentyńską i amerykańską, ponieważ one są najczęściej grane.
   > umawiamy się że jeśli przekazuje tablice wyników czy to procentową, czy jak typuje dany bukmacher to ma ona postać
-    TAB     0       1       2
-    double  draw    winA    winB
+    TAB   |   0    |   1    |    2
+    double|  draw  |  winA  |  winB
   
   > jeszcze coś miałęm pisac i zapomniałem     
