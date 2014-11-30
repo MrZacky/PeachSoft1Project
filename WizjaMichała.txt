@@ -16,10 +16,13 @@ ID_meczu::Int |  Data::date | ID_druzyna1::Int | ID_druzyna2::Int | wynik::doubl
 2 | 23-08-1993 | 2 | 1 | 0:1  (inaczej: Chelsea Londyn - Manchester United 0:1) w sumie United wygrało 3-1 ;P
 
 
-SOCCERRATING - MECZE
-ID_meczu::Int | zwyciestwo_1::double | remis::double | zwyciestwo_2::double
-1 | 1.52 | 2.53 | 3.25
-2 | 2.21 | 2.46 | 2.05
+ 1) SOCCERRATING - MECZE
+  ID_meczu::Int | zwyciestwo_1::double | remis::double | zwyciestwo_2::double
+  1 | 1.52 | 2.53 | 3.25
+  2 | 2.21 | 2.46 | 2.05
+LUB
+2) Wszystkie serwisy - MECZE
+ ID_meczu::Int | Serwis1::double[3] | Serwis2::double[3] | Serwis2::double[3]
 
 PRZYSZŁE_MECZE
 ID_DRUŻYNA_1::Int | ID_DRUŻYNA_2::Int | STADION::String
@@ -35,4 +38,8 @@ Musimy przyjąć jakieś zasady, np:
   > jaki bierzemy nasz początkowy zakres. Ja proponuję liga angielska, liga hiszpańska, liga niemiecka. 
         Ewentualnie jak starczy czasu to można dodać pozostałe ligi europejskie oraz rosyjską, brazylisjką, 
         argentyńską i amerykańską, ponieważ one są najczęściej grane.
+  > umawiamy się że jeśli przekazuje tablice wyników czy to procentową, czy jak typuje dany bukmacher to ma ona postać
+    TAB     0       1       2
+    double  draw    winA    winB
+  
   > jeszcze coś miałęm pisac i zapomniałem     
