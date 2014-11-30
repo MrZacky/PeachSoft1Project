@@ -1,0 +1,11 @@
+========== MOŻLIWOŚCI STRONY ========== 
+  > ?
+
+========== MULTI LANGUAGE ==========
+Moja propozycja jest taka zeby robić stronę od początku w dwóch językach - angielski i polski. Później ewentualnie dodamy
+nowe języki. Szukałem czegoś w miare przyjmenego w necie. Daje linki
+http://www.bitrepository.com/php-how-to-add-multi-language-support-to-a-website.html
+http://www.w3.org/International/getting-started/language
+http://googlewebmastercentral.blogspot.com/2010/03/working-with-multilingual-websites.html
+http://stackoverflow.com/questions/776807/create-a-webpage-with-multilanguage-in-php
+Nie wiem jakie rozwiązanie sobie wykorzystacie, możecie szukać dalej ;)
