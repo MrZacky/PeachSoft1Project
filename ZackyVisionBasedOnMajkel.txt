@@ -1,0 +1,10 @@
+This is our first database structure :
+
+TableName : TEAM_STATS_WEBSITES
+Fields : [ TeamID::Int |  Website::String ]
+
+TableName : FOOTBAL_MATCHES
+Fields : [ MatchID::Int |  MatchDate::Date | WinByTeam1::Int | WinByTeam2::Int | Result::Double ]
+
+TableName : TEAM_NAMES
+Fields : [ ID::Int |  Name::String ]
