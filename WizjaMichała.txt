@@ -35,6 +35,8 @@ Liga hiszpańska | 20
 
 Musimy przyjąć jakieś zasady, np:
   > nazewnictwo angielskie (drużyna = team :P)
+  > to oczym zapomniałem. Nazywanie metod : pierwsza literka mała, a później jakby każdy kolejny wyraz z dużej
+   np.printDrawMatches(), footballMatch()
   > jaki bierzemy nasz początkowy zakres. Ja proponuję liga angielska, liga hiszpańska, liga niemiecka. 
         Ewentualnie jak starczy czasu to można dodać pozostałe ligi europejskie oraz rosyjską, brazylisjką, 
         argentyńską i amerykańską, ponieważ one są najczęściej grane.
@@ -42,4 +44,3 @@ Musimy przyjąć jakieś zasady, np:
     TAB   |   0    |   1    |    2
     double|  draw  |  winA  |  winB
   
-  > jeszcze coś miałęm pisac i zapomniałem     
