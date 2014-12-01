@@ -9,5 +9,5 @@ Fields : [ MatchID::Int |  MatchDate::Date | Draw::Double | WinA::Double | WinB:
 Optional_Comment : 
 
 TableName : TEAM_NAMES
-Fields : [ ID::Int |  Name::String ]
+Fields : [ TeamID::Int |  Name::String ]
 Optional_Comment : 
