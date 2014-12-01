@@ -2,9 +2,12 @@ This is our first database structure :
 
 TableName : TEAM_STATS_WEBSITES
 Fields : [ TeamID::Int |  Website::String ]
+Optional_Comment : 
 
 TableName : FOOTBAL_MATCHES
-Fields : [ MatchID::Int |  MatchDate::Date | WinByTeam1::Int | WinByTeam2::Int | Result::Double ]
+Fields : [ MatchID::Int |  MatchDate::Date | Draw::Double | WinA::Double | WinB::Double ]
+Optional_Comment : 
 
 TableName : TEAM_NAMES
 Fields : [ ID::Int |  Name::String ]
+Optional_Comment : 
