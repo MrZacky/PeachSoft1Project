@@ -19,13 +19,15 @@ Strona z przyszłymi meczami:
 Strona z wynikami:
 
 ================= DataBase =================
-firstpeach :: gold
+
+betthemall :: cyan
 Connection Settings
-Host	ec2-54-243-245-159.compute-1.amazonaws.com
-Database	d5n3878jt37fuc
-User	kkgdofxqbtkbhl
-Port	5432
-Password 0hyBdmHtsNHgYIK9ZFDgIIkhgN
-Psql	 heroku pg:psql --app firstpeach HEROKU_POSTGRESQL_GOLD
-URL postgres://kkgdofxqbtkbhl:0hyBdmHtsNHgYIK9ZFDgIIkhgN@ec2-54-243-245-159.compute-1.amazonaws.com:5432/d5n3878jt37fuc
+Host 	ec2-23-23-210-37.compute-1.amazonaws.com
+Database 	d51p1baokcdgcm
+User 	bdwqkpvebkleol
+Port 	5432
+Password 	QtZOLTMuD-13V1OOsw_dthxqRB
+Psql 	heroku pg:psql --app betthemall HEROKU_POSTGRESQL_CYAN
+URL 	postgres://bdwqkpvebkleol:QtZOLTMuD-13V1OOsw_dthxqRB@ec2-23-23-210-37.compute-1.amazonaws.com:5432/d51p1baokcdgcm
+
 ============================================
