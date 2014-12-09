@@ -1,11 +1,6 @@
 This is our first database structure :
 Typy zmiennych są dostosowane do struktury PostgreSQL
-
-
-
-TableName : TEAM_STATS_WEBSITES
-Fields : [ id::INTEGER | TeamID::INTEGER |  Website::VARCHAR ]
-Optional_Comment : 
+Tabele w Bazie są przechowywane są porządku alfabetycznym (Porządek jest zachowany automatycznie po dodaniu nowej tabeli)
 
 TableName : FOOTBAL_MATCHES
 Fields : [ id::INTEGER | MatchID::INTEGER |  MatchDate::DATE | Draw::DOUBLE PRECISION | WinA::DOUBLE PRECISION | WinB::DOUBLE PRECISION ]
@@ -13,4 +8,8 @@ Optional_Comment :
 
 TableName : TEAM_NAMES
 Fields : [ id::INTEGER | TeamID::INTEGER |  Name::VARCHAR ]
+Optional_Comment : 
+
+TableName : TEAM_STATS_WEBSITES
+Fields : [ id::INTEGER | TeamID::INTEGER |  Website::VARCHAR ]
 Optional_Comment : 
