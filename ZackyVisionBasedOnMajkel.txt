@@ -1,13 +1,16 @@
 This is our first database structure :
+Typy zmiennych są dostosowane do struktury PostgreSQL
+
+
 
 TableName : TEAM_STATS_WEBSITES
-Fields : [ TeamID::Int |  Website::String ]
+Fields : [ id::INTEGER | TeamID::INTEGER |  Website::VARCHAR ]
 Optional_Comment : 
 
 TableName : FOOTBAL_MATCHES
-Fields : [ MatchID::Int |  MatchDate::Date | Draw::Double | WinA::Double | WinB::Double ]
+Fields : [ id::INTEGER | MatchID::INTEGER |  MatchDate::DATE | Draw::DOUBLE PRECISION | WinA::DOUBLE PRECISION | WinB::DOUBLE PRECISION ]
 Optional_Comment : 
 
 TableName : TEAM_NAMES
-Fields : [ TeamID::Int |  Name::String ]
+Fields : [ id::INTEGER | TeamID::INTEGER |  Name::VARCHAR ]
 Optional_Comment : 
