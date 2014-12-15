@@ -3,7 +3,7 @@ Typy zmiennych są dostosowane do struktury PostgreSQL
 Tabele w Bazie są przechowywane są porządku alfabetycznym (Porządek jest zachowany automatycznie po dodaniu nowej tabeli)
 
 TableName : FOOTBAL_MATCHES
-Fields : [ id::INTEGER | MatchID::INTEGER |  MatchDate::DATE | Draw::DOUBLE PRECISION | WinA::DOUBLE PRECISION | WinB::DOUBLE PRECISION ]
+Fields : [ id::INTEGER | TeamA_ID::INTEGER | TeamB_ID::INTEGER |  MatchDate::DATE | Draw::DOUBLE PRECISION | WinA::DOUBLE PRECISION | WinB::DOUBLE PRECISION ]
 Optional_Comment : 
 
 TableName : TEAM_NAMES
